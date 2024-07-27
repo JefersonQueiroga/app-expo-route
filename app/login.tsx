@@ -1,12 +1,12 @@
 import { Text, View, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 
-export default function Index() {
+export default function Login() {
   return (
     <View style={styles.container}>
-      <Text>Jeferson Queiroga </Text>
-      <Link href="(tabs)">
-        <Text style={{ color: 'blue' }}>Tela Principal</Text>
+      <Text>Tela de Login</Text>
+      <Link href="(tab)">
+        <Text style={{ color: 'blue' }}>Entrar</Text>
       </Link>
     </View>
   );

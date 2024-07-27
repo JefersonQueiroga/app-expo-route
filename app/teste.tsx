@@ -5,7 +5,7 @@ export default function About() {
   return (
     <View style={styles.container}>
       <Text>Jeferson Queiroga </Text>
-      <Link href="/">
+      <Link href="/tabs/index">
         <Text style={{ color: 'blue' }}>Index</Text>
       </Link>
     </View>
